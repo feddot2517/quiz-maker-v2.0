@@ -1,0 +1,55 @@
+[
+  {
+    "type": "start",
+    "id": "qonDt1UdtQpMQpY89cwK",
+    "nextStep": "iMHMRr4Y7HuFJ0JecymP"
+  },
+  {
+    "type": "end",
+    "id": "CyIPyzqK3OXAuVyIsoyj"
+  },
+  {
+    "type": "string",
+    "id": "iMHMRr4Y7HuFJ0JecymP",
+    "question": "Как дела?",
+    "nextStep": "UtbIXUfeMCbG53QjwBH3"
+  },
+  {
+    "type": "checklist",
+    "id": "UtbIXUfeMCbG53QjwBH3",
+    "question": "Че делаешь?",
+    "nextStep": "2MUKaZUr7aAcDOdGOhzG",
+    "answers": [
+      {
+        "answer": "Лол"
+      },
+      {
+        "answer": "Кек"
+      },
+      {
+        "answer": "Как"
+      }
+    ]
+  },
+  {
+    "type": "radio",
+    "id": "2MUKaZUr7aAcDOdGOhzG",
+    "question": "лол???",
+    "answers": [
+      {
+        "nextStep": "CyIPyzqK3OXAuVyIsoyj",
+        "answer": "Лол"
+      },
+      {
+        "nextStep": "aCsee7cin2tnxVaxUl56",
+        "answer": "Не лол"
+      }
+    ]
+  },
+  {
+    "type": "string",
+    "id": "aCsee7cin2tnxVaxUl56",
+    "question": "Как?:",
+    "nextStep": "CyIPyzqK3OXAuVyIsoyj"
+  }
+]

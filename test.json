@@ -1,0 +1,52 @@
+[
+  {
+    "type": "start",
+    "id": "c0vFzqN0bEJtWxbHbDk6",
+    "nextStep": "q7S6TSPuei9RAVvTwhWz"
+  },
+  {
+    "type": "end",
+    "id": "4lj9GSp6HhbZK9EUxpyk"
+  },
+  {
+    "type": "checklist",
+    "id": "q7S6TSPuei9RAVvTwhWz",
+    "question": "Как дела?",
+    "nextStep": "tDf2RaGusMDf4xq5B5fp",
+    "answers": [
+      {
+        "answer": "Норм"
+      },
+      {
+        "answer": "Не норм"
+      }
+    ]
+  },
+  {
+    "type": "string",
+    "id": "tDf2RaGusMDf4xq5B5fp",
+    "question": "Че делаешь?",
+    "nextStep": "aYAbcSYrivXuNiyhYWCm"
+  },
+  {
+    "type": "radio",
+    "id": "aYAbcSYrivXuNiyhYWCm",
+    "question": "Лол??",
+    "answers": [
+      {
+        "nextStep": "4lj9GSp6HhbZK9EUxpyk",
+        "answer": "Кек"
+      },
+      {
+        "nextStep": "GnCm9q1GQu93XjMaxeRY",
+        "answer": "Лолллл"
+      }
+    ]
+  },
+  {
+    "type": "string",
+    "id": "GnCm9q1GQu93XjMaxeRY",
+    "question": "Почему лол?",
+    "nextStep": "4lj9GSp6HhbZK9EUxpyk"
+  }
+]
